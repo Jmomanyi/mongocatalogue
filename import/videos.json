@@ -1,5 +1,100 @@
-{"video":{"server":1,"ip":"35.196.21.150","Name":"Big Buck Bunny","file":"bbb.mp4","thumb":"bbb-th.png","pic":"bbb.png","uuid":"380613d5-71b3-4f24-8a58-ca1a260b49d3","category":"cassandra","category":"shorts"}}
-{"video":{"server":2,"ip":"104.196.103.136","Name":"Cloning a project into netbeans","file":"Cloningaprojectintonetbeans.mp4","thumb":"cloningaprojectintonetbeans-th.png","pic":"cloningaprojectintonetbeans.png","uuid":"08d205c9-cc33-4475-ba25-d24ff0426470","category":"cassandra"} }
-{"video":{"server":3,"ip":"35.190.157.242","Name":"Installing and starting cassandra on a mac","file":"Installingandstartingcassandra-on-mac.mp4","thumb":"installingandstartingcassandra-on-mac-th.png","pic":"installingandstartingcassandra-on-mac.png","uuid":"38a817da-7728-4658-9ecd-44cf638daa81","category":"cassandra"}}
-{"video":{"server":4,"ip":"35.196.163.237","Name":"Running cassandra on a pc","file":"Runningcassandraonapc.mp4","thumb":"runningcassandraonapc-th.png","pic":"runningcassandraonapc.png","uuid":"31053444-4b35-4336-860b-db62f2aa8d4a","category":"cassandra"}}
-{"video":{"server":4,"ip":"35.196.69.43","Name":"Starting Erlang","file":"erlang1.mp4","thumb":"erlang1-th.png","pic":"erlang1.png","uuid":"45fcbe1d-3f94-4f42-89c4-2972db60c961","category":"erlang"}}
+[
+    {
+      "video": {
+        "server": 1,
+        "ip": "34.89.16.131",
+        "name": "Big Buck Bunny",
+        "file": "bbb.mp4",
+        "thumb": "bbb-th.png",
+        "pic": "bbb.png",
+        "uuid": "380613d5-71b3-4f24-8a58-ca1a260b49d3",
+        "category": "animation"
+      }
+    },
+    {
+      "video": {
+        "server": 1,
+        "ip": "34.89.16.131",
+        "name": "Elephants Dream",
+        "file": "ElephantsDream.mp4",
+        "thumb": "ElephantsDream-th.png",
+        "pic": "ElephantsDream.png",
+        "uuid": "380613d5-71b3-4f24-8a58-ca1a260b49d4",
+        "category": "shorts"
+      }
+    },
+    {
+      "video": {
+        "server": 1,
+        "ip": "34.89.16.131",
+        "name": "For Bigger Joyrides",
+        "file": "ForBiggerJoyrides.mp4",
+        "thumb": "ForBiggerJoyrides-th.png",
+        "pic": "ForBiggerJoyrides.png",
+        "uuid": "380613d5-71b3-4f24-8a58-ca1a260b49d5",
+        "category": "uncategorized"
+      }
+    },
+    {
+      "video": {
+        "server": 1,
+        "ip": "34.89.16.131",
+        "name": "Subaru Outback On Street And Dirt",
+        "file": "SubaruOutbackOnStreetAndDirt.mp4",
+        "thumb": "SubaruOutbackOnStreetAndDirt-th.png",
+        "pic": "SubaruOutbackOnStreetAndDirt.png",
+        "uuid": "380613d5-71b3-4f24-8a58-ca1a260b49d6",
+        "category": "review"
+      }
+    },
+    {
+      "video": {
+        "server": 1,
+        "ip": "34.89.16.131",
+        "name": "For Bigger Blazes",
+        "file": "ForBiggerBlazes.mp4",
+        "thumb": "ForBiggerBlazes-th.png",
+        "pic": "ForBiggerBlazes.png",
+        "uuid": "380613d5-71b3-4f24-8a58-ca1a260b49d7",
+        "category": "mongo"
+      }
+    },
+    {
+      "video": {
+        "server": 1,
+        "ip": "34.89.16.131",
+        "name": "For Bigger Meltdowns",
+        "file": "ForBiggerMeltdowns.mp4",
+        "thumb": "ForBiggerMeltdowns-th.png",
+        "pic": "ForBiggerMeltdowns.png",
+        "uuid": "380613d5-71b3-4f24-8a58-ca1a260b49d8",
+        "category": "uncategorized"
+      }
+    },
+    {
+      "video": {
+        "server": 1,
+        "ip": "34.89.16.131",
+        "name": "For Bigger Escapes",
+        "file": "ForBiggerEscapes.mp4",
+        "thumb": "ForBiggerEscapes-th.png",
+        "pic": "ForBiggerEscapes.png",
+        "uuid": "380613d5-71b3-4f24-8a58-ca1a260b49d9",
+        "category": "uncategorized"
+      }
+    },
+    {
+      "video": {
+        "server": 1,
+        "ip": "34.89.16.131",
+        "name": "Sintel",
+        "file": "Sintel.mp4",
+        "thumb": "Sintel-th.png",
+        "pic": "Sintel.png",
+        "uuid": "380613d5-71b3-4f24-8a58-ca1a260b49d2",
+        "category": "uncategorized"
+      }
+    }
+  ]
+  
+
