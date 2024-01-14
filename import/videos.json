@@ -7,7 +7,7 @@
         "file": "bbb.mp4",
         "thumb": "bbb-th.png",
         "pic": "bbb.png",
-        "uuid": "380613d5-71b3-4f24-8a58-ca1a260b49d3",
+        "uuid": "",
         "category": "animation"
       }
     },
@@ -19,7 +19,7 @@
         "file": "ElephantsDream.mp4",
         "thumb": "ElephantsDream-th.png",
         "pic": "ElephantsDream.png",
-        "uuid": "380613d5-71b3-4f24-8a58-ca1a260b49d4",
+        "uuid": "",
         "category": "shorts"
       }
     },
@@ -31,7 +31,7 @@
         "file": "ForBiggerJoyrides.mp4",
         "thumb": "ForBiggerJoyrides-th.png",
         "pic": "ForBiggerJoyrides.png",
-        "uuid": "380613d5-71b3-4f24-8a58-ca1a260b49d5",
+        "uuid": "",
         "category": "uncategorized"
       }
     },
@@ -43,7 +43,7 @@
         "file": "SubaruOutbackOnStreetAndDirt.mp4",
         "thumb": "SubaruOutbackOnStreetAndDirt-th.png",
         "pic": "SubaruOutbackOnStreetAndDirt.png",
-        "uuid": "380613d5-71b3-4f24-8a58-ca1a260b49d6",
+        "uuid": "",
         "category": "review"
       }
     },
@@ -55,7 +55,7 @@
         "file": "ForBiggerBlazes.mp4",
         "thumb": "ForBiggerBlazes-th.png",
         "pic": "ForBiggerBlazes.png",
-        "uuid": "380613d5-71b3-4f24-8a58-ca1a260b49d7",
+        "uuid": "",
         "category": "mongo"
       }
     },
@@ -67,7 +67,7 @@
         "file": "ForBiggerMeltdowns.mp4",
         "thumb": "ForBiggerMeltdowns-th.png",
         "pic": "ForBiggerMeltdowns.png",
-        "uuid": "380613d5-71b3-4f24-8a58-ca1a260b49d8",
+        "uuid": "",
         "category": "uncategorized"
       }
     },
@@ -79,7 +79,7 @@
         "file": "ForBiggerEscapes.mp4",
         "thumb": "ForBiggerEscapes-th.png",
         "pic": "ForBiggerEscapes.png",
-        "uuid": "380613d5-71b3-4f24-8a58-ca1a260b49d9",
+        "uuid": "",
         "category": "uncategorized"
       }
     },
@@ -91,7 +91,7 @@
         "file": "Sintel.mp4",
         "thumb": "Sintel-th.png",
         "pic": "Sintel.png",
-        "uuid": "380613d5-71b3-4f24-8a58-ca1a260b49d2",
+        "uuid": "",
         "category": "uncategorized"
       }
     }
