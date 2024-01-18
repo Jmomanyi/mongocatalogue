@@ -1,7 +1,7 @@
 FROM mongo:3.6
 
-RUN rm -rf /data/db && mkdir /data/db 
-RUN rm -rf /home/import && mkdir /home/import
+RUN mkdir -p /data/db 
+RUN mkdir -p /home/import
 COPY videos.json /home/import/videos.json
 COPY categories.json /home/import/categories.json
 
