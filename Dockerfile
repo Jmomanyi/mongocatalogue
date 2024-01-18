@@ -8,7 +8,7 @@ COPY import/videos.json /home/import/videos.json
 COPY import/categories.json /home/import/categories.json
 
 # Create an entrypoint script for initializing data
-COPY build-mongo/entrypoint.sh /entrypoint.sh
+COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
 # Final Stage
