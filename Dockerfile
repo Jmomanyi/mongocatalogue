@@ -3,8 +3,8 @@ FROM mongo:3.6
 RUN mkdir -p /data/db
 RUN mkdir -p /home/import
 
-COPY build-mongo/import/videos.json /home/import/videos.json
-COPY build-mongo/import/categories.json /home/import/categories.json
+COPY import/videos.json /home/import/videos.json
+COPY import/categories.json /home/import/categories.json
 
 CMD ["mongod", "--bind_ip_all", "--auth"]
 
