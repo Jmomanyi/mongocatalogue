@@ -7,13 +7,19 @@ RUN mkdir -p /home/import
 COPY import/videos.json /home/import/videos.json
 COPY import/categories.json /home/import/categories.json
 
-# Run the import commands during the build stage
-RUN mongod --fork --logpath /var/log/mongod.log && \
-    mongoimport -u restheart -p R3ste4rt! --authenticationDatabase admin --db myflix --collection videos --drop --file /home/import/videos.json && \
-    mongoimport -u restheart -p R3ste4rt! --authenticationDatabase admin --db myflix --collection categories --drop --file /home/import/categories.json && \
-    mongod --shutdown
+# Create an entrypoint script for initializing data
+COPY build-mongo/entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 
 # Final Stage
 FROM softinstigate/restheart
 
-# ... (rest of the Dockerfile)
+# Copy the data from the build stage
+COPY --from=build-stage /home/import /home/import
+
+# Copy the entrypoint script
+COPY --from=build-stage /entrypoint.sh /entrypoint.sh
+
+# Expose ports and set the entrypoint
+EXPOSE 80
+ENTRYPOINT ["/entrypoint.sh"]
